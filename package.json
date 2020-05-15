@@ -1,5 +1,5 @@
 {
-  "name": "shineboard-cli",
+  "name": "@shineboard/cli",
   "version": "0.0.1",
   "description": "The CLI for ShineBoard - A beautiful way to share code",
   "main": "index.js",
