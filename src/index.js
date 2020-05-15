@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 const chalk = require('chalk');
-const files = require('./libs/files');
-const options = require('./libs/options');
-const uploader = require('./libs/uploader');
+const files = require('../libs/files');
+const options = require('../libs/options');
+const uploader = require('../libs/uploader');
 const emoji = require('node-emoji');
 
 // Log this everytime
-console.log(chalk.white.bold('ShineBoard CLI v0.0.1'));
+console.log(chalk.white.bold('ShineBoard CLI v0.0.2'));
 
 options.generateArgs((argv) => {
 
