@@ -13,6 +13,13 @@ ShineBoard is a open-source platform to make sharing code easier. Wasted by all 
 
 Alternatively, you can use the [web application](https://github.com/ShineBoard/shineboard) to create paste from the web.
 
+## Installing
+With NPM :
+* Run `npm install -g @shineboard/cli` in your terminal
+
+With Yarn :
+* Run `yarn global add @shineboard/cli` in your terminal
+
 ## Contributing
 
 Coming soon.
