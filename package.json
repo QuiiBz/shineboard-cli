@@ -1,0 +1,26 @@
+{
+  "name": "shineboard-cli",
+  "version": "0.0.1",
+  "description": "The CLI for ShineBoard - A beautiful way to share code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shine": "./index.js"
+  },
+  "keywords": ["paste", "share", "code", "cli", "utility"],
+  "author": "Tom Lienard",
+  "homepage": "https://github.com/ShineBoard/cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShineBoard/cli"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "node-emoji": "^1.10.0",
+    "yargs": "^15.3.1"
+  }
+}
