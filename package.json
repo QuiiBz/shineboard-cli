@@ -1,13 +1,13 @@
 {
   "name": "@shineboard/cli",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "The CLI for ShineBoard - A beautiful way to share code",
-  "main": "src/index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "shine": "src/index.js"
+    "shine": "bin/index.js"
   },
   "keywords": [
     "paste",
@@ -26,6 +26,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "chalk": "^4.0.0",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5",
     "node-emoji": "^1.10.0",
     "yargs": "^15.3.1"
   }

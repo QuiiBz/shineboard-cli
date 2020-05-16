@@ -1,22 +1,20 @@
-const axios = require('axios');
+import axios from 'axios';
 
-module.exports = {
+/**
+ * Upload a data to the API
+ *
+ * @param data the data to upload
+ * @param runnable the runnable to run after uploading
+ */
+export default (data, runnable) => {
 
-    /**
-     *
-     * @param data
-     * @param runnable
-     */
-    upload: (data, runnable) => {
+    axios.post('https://shineboard.io/api/paste', data)
+        .then((response) => {
 
-        axios.post('https://shineboard.io/api/paste', data)
-            .then((response) => {
+            runnable(response.data);
 
-                runnable(response.data);
+        }).catch((error) => {
 
-            }).catch((error) => {
-
-            console.log(error);
-        });
-    }
+        console.log(error);
+    });
 };
