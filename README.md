@@ -22,7 +22,13 @@ With Yarn :
 
 ## Contributing
 
-Coming soon.
+Since it's just a Node.js app, you may already know how to do this :
+* Fork this repository, then clone it to your device
+* Install JS dependencies with :
+  * NPM : `npm install`
+  * Yarn : `yarn`
+* Run `node src/index.js` to try the CLI without linking it
+* You can run `npm link` (or `yarn link`) to get the `shine` CLI running locally. Make sure to type `npm unlink` (or `yarn unlink`) to remove symlink created before. 
 
 ## License
 
