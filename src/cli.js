@@ -17,9 +17,8 @@ export const cli = (processArgs) => {
     // array of args
     const args = minimist(processArgs.slice(2));
 
-    // Get the command executed (like 'shine somecommand')
-    // or else 'help' by default
-    let command = args._[0] || 'help';
+    // Get the command executed
+    let command = args._[0];
 
     // Handle the performed command
     if(!handleCommand(args, command))
