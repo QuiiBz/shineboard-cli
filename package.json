@@ -1,6 +1,6 @@
 {
   "name": "@shineboard/cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The CLI for ShineBoard - A beautiful way to share code",
   "main": "bin/index.js",
   "scripts": {
@@ -28,7 +28,6 @@
     "chalk": "^4.0.0",
     "esm": "^3.2.25",
     "minimist": "^1.2.5",
-    "node-emoji": "^1.10.0",
-    "yargs": "^15.3.1"
+    "node-emoji": "^1.10.0"
   }
 }
