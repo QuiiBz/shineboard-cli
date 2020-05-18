@@ -13,6 +13,7 @@ export default (args) => {
     // Get the attributes from the args
     const name = args.n || args.name || 'Untitled';
     const language = args.l || args.language || 'javascript';
+    const password = args.p || args.password || null;
     const file = args._[1];
 
     if(file) {
@@ -30,6 +31,9 @@ export default (args) => {
             if(name !== 'Untitled')
                 console.log(info(` Using name "${name}"...`));
 
+            if(password !== null)
+                console.log(info(` Using password "${password}"...`))
+
             // Upload to the API
             upload({
 
@@ -37,6 +41,7 @@ export default (args) => {
                 language: language,
                 title: name,
                 code: getContent(filePath),
+                private: password,
 
             }, (data) => {
 

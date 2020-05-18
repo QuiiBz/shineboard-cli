@@ -11,10 +11,11 @@ const help = {
 
     add: `${chalk.whiteBright.bold('shine add [file] <options>')}
 
-${chalk.underline('Exemple: ')} shine add index.js -n "Index.js file" -l javascript"
+${chalk.underline('Exemple: ')} shine add index.js -n "Index.js file" -l javascript" -p "mypass"
 
  ${chalk.blueBright('--name, -n')}           set a name
- ${chalk.blueBright('--language, -l')}       set a language`,
+ ${chalk.blueBright('--language, -l')}       set a language
+ ${chalk.blueBright('--password, -p')}       set a password`,
 }
 
 /**
