@@ -1,7 +1,5 @@
 <p align="center"><img src="https://i.imgur.com/4TU5pl8.png" width="200"></p>
 
-<p align="center"></p>
-
 # ShineBoard CLI
 ## The CLI for ShineBoard - A Beautiful way to share code
 
@@ -9,7 +7,8 @@ ShineBoard is a open-source platform to make sharing code easier. Wasted by all 
 * Type `shine help` to get started
 * To upload very quicly, run `shine add <file>`
 * You can also choose to specify a name for this paste with the flag `--name` (or `-n`) 
-* If you which, you can force the language with `--language` (or `-l`) 
+* If you which, you can force the language with `--language` (or `-l`)
+* You may also set a password to protect the paste with `--password` (or `-p`)
 
 Alternatively, you can use the [web application](https://github.com/ShineBoard/shineboard) to create paste from the web.
 
